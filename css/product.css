@@ -1,0 +1,342 @@
+/*========================================   Product Main ==============================================*/
+
+/* main */
+main{
+    width: 100%; margin: 0; 
+    margin-top: 102px 
+}
+.main-wrap{
+    width: 100%;
+    display: flex; 
+    flex-wrap:wrap;
+    justify-content:center;
+}
+.productImg{
+   width: 100%;
+}
+.productImg img{
+    width: 100%;
+}
+.productContent{
+    width: 100%; padding: 17px 24px 0 24px;margin-bottom: 20px;
+}
+.itemName{
+    width: 100%;
+    text-align: left; font-size: 20px;
+    letter-spacing: 4px; color: #3f3a3a;  
+}
+.productID{
+    width: 100%;
+    text-align: left;font-size: 16px; padding-top: 3px;
+    letter-spacing: 3.2px;color: #bababa;
+}
+.productPrice{ 
+    text-align: left;font-size: 20px;   width: 100%;
+    border-bottom: 2px solid #635d5d; padding: 22px 0 10px 0;
+    
+}
+.productColor{
+    width: 100%;margin-top: 18px;
+    display: flex;justify-content: start; align-items: center;
+}
+.colorStr{
+    font-size: 18px;letter-spacing: 2.8px;text-align: left;
+    color: #3f3a3a; border-right: solid 1px #635d5d ;
+    padding-right: 15px;
+}
+.colorMenu{
+    display: flex; padding: 6px; margin-left: 33px;
+
+}
+.colorEachBox{
+    height: 32px; width:32px;
+    margin-right: 25px;
+    border: solid 1px rgb(240, 233, 233);
+}
+.active, .colorEachBox:hover {  
+    border:2px solid #8a8080
+} 
+.colorEachBox div{
+    height: 23px; width: 23px; margin-top: 4.5px;margin-left: 4.5px; 
+}
+.productSize{
+    width: 100%; margin-top: 20px;
+    display: flex;justify-content: start; align-items: center;
+}
+.sizeStr{
+    font-size: 18px;letter-spacing: 2.8px;text-align: left;
+    color:  #3f3a3a; border-right: solid 1px #000000;
+    padding-right: 15px;
+}
+.sizeMenu{
+    display: flex; margin-left: 33px;
+    padding-right: 15px;
+}
+.sizeEach{
+    height: 34px; width:34px; 
+    text-align: center;
+    border-radius: 50%;
+    font-size: 19px; color: #3f3a3a;
+    margin-right: 25px;
+    background-color:#ececec;
+}
+.active-Size, .sizeEach:hover {
+    border: 1px;
+    background-color:  #383838; color: #ffffff
+}
+.productQuantity{
+    width: 100%; margin-top: 20px;
+    display: flex;justify-content: start; align-items: center;
+}
+.QuantityStr{
+    font-size: 18px;letter-spacing: 2.8px;text-align: left;
+    color:  #3f3a3a; border-right: solid 1px #000000;
+    padding-right: 15px;width: 52px;
+}
+.QuantityMenu{
+    width: 100%; height: 44px;
+    border: 1px solid #979797;
+    font-size: 4px; margin-top: 23px;
+    display: flex; justify-content: space-between; 
+}
+.quanSub{
+    text-align: center; width: 80px;
+    font-size: 28px;border: none;
+    background-color: transparent;
+}
+.quan{
+    text-align: center; width: auto; color: #8b572a;
+    font-size: 20px; letter-spacing: 4px; margin-top: auto; margin-bottom: auto;
+}
+.quanPlus{
+    text-align: center; width: 80px;
+    font-size: 28px; border: none;
+    background-color: transparent;
+}
+.sizeBtn{
+    text-align: center; color: white;
+    height: 44px; background-color: black;
+    margin-top: 23px; width: 100%; font-size: 18px;
+    letter-spacing: 4px;
+}
+.descriptionWrap{
+    width: 100%; margin-top: 30px;
+}
+.productDetailWrap {
+    width: 100%; padding: 17px 24px 55px 24px;
+    position: relative; align-items: center;
+    text-align: left; margin-top: 30px;
+    color: #3f3a3a; line-height: 1.5;font-size: 14px;  
+    display: flex; flex-wrap: nowrap ; flex-direction: column;
+}
+.productTitle{
+    font-size: 16px; letter-spacing: 3.2px;
+    color: #8b572a;width: 120px;
+    background-color: #ffffff;
+    position: absolute; 
+    top:6px; left: 22px;
+}
+.productStory{
+    font-size: 14px;width: 100%;  
+    line-height: 1.71;
+    color: #3f3a3a; padding-top: 50px;
+    border-top: 1px solid #8b572a; 
+}
+.productImages{
+    width: 312px; padding-top: 50px;
+}
+  
+.productImages img{
+  width: 100%; margin-top: 18px;
+   }  
+
+/*============================================== media ==============================================*/
+
+@media screen and (min-width:360px){
+
+    .QuantityStr{
+        display: none;}
+}
+@media  screen and (min-width:500px) {
+
+    /*main*/
+    
+    main{
+        width: 100%;margin: auto; flex: auto;
+        margin-bottom: 150px; display: flex;
+        padding-top: 100px;   
+    }
+    .main-wrap{       
+        width: 90%; 
+        margin: 0; justify-content:center;
+        align-items:flex-start ;margin: auto;
+        justify-content: space-between        
+    }
+    .productImg{
+        width: 53%;    
+    }
+   .productContent{
+        width: 40%; padding: 0 12px 0 0;       
+    }
+    .itemName{  
+        text-align: left; font-size: 20px;    
+    }
+    .productID{
+        font-size: 14px; padding-top: 3px;       
+    }
+    .productPrice{
+        font-size: 18px;      
+        border-bottom: 1px solid #635d5d; padding-top: 13px;      
+    }
+    .productColor{
+        margin-top: 13px;   
+    }
+    .colorStr{
+        font-size: 16px;letter-spacing: 1.8px;     
+    }  
+    .colorMenu{
+        display: flex; padding: 0px; 
+    }
+    .colorEachBox{
+        height: 30px; width:30px;
+        margin-right: 10px;      
+    }
+    .colorEachBox div{
+        height: 22px; width: 22px; margin-top: 4px;margin-left: 4px;      
+    }
+    .productSize{
+        margin-top: 13px;  
+    }
+    .sizeStr{
+        font-size: 16px;letter-spacing: 1.8px;
+    }
+   .sizeMenu{
+        display: flex; padding: 0px; 
+    }
+    .sizeMenu div{
+        height: 34px; width: 34px; margin-top: 4px;margin-left: 4px;
+        margin-right: 6px; font-size: 15pt; display: flex; justify-content: center;
+    }
+    .productQuantity{
+      margin-top: 15px; border: none;
+        align-items: center;
+    }   
+    .QuantityStr{
+        display: flex ;font-size: 16px;letter-spacing: 1.8px;
+        align-items: center;
+    }  
+    .QuantityMenu{
+        display: flex; padding: 0px; height: 31px; width: 100%;margin-top: 0px;
+        margin-left: 33px; 
+    }  
+    .quanSub{
+        width: 45px;font-size: 26px;      
+        background-color: transparent;      
+    }  
+    .quan{     
+        text-align: center; width: auto; color: #8b572a; 
+        font-size: 20px; letter-spacing: 4px; margin-top: auto; margin-bottom: auto;     
+    }
+    .quanPlus{
+        width: 45px;
+        font-size: 26px; 
+    }   
+    .sizeBtn{      
+        height: 40px; 
+        margin-top: 20px; font-size: 16px; 
+    } 
+    .descriptionWrap{
+        width: 100%; margin-top: 20px; 
+    }
+
+    .productTitle{
+        left: 22px;
+    }
+    .productImages{
+       width: 90%;
+    }
+    .productDetailWrap {
+        flex-wrap: wrap ; flex-direction: row;
+        justify-content: center;
+    }
+    .productImages{
+        margin: 0; 
+    }
+}
+
+
+@media  screen and (min-width:1250px) {
+
+    /*main*/
+
+    .main-wrap{
+     /* keep 3 columns ，  large screen. (>1250px) */    
+        width: 1200px;  
+        margin: 0; justify-content:center;
+        align-items:center;margin: auto;        
+    }
+    .main-wrap{
+        width: 70%; 
+        margin: 0; justify-content:center;
+        align-items:flex-start ;margin: auto;
+        justify-content: space-between    
+    }
+    .productID{      
+        margin-top: 18px;
+    }
+    .productPrice{
+        margin-top: 18px;    
+     }
+     .productColor{
+        margin-top: 25px;        
+    }
+    .productSize{
+        margin-top: 25px;  
+    }
+    .sizeMenu div{
+        font-size: 18px; text-align: center; height: 30px;width: 30px;
+    }
+    .productQuantity{
+        margin-top: 25px; 
+    }
+    .sizeBtn{    
+        margin-top: 40px;    
+    }
+    .descriptionWrap{
+        margin-top: 70px;  
+    }
+    .productDetailWrap {
+        margin-top: 100px; 
+    }
+    .productStory{
+        margin-top: 50px; font-size: 16px;
+    }   
+    .productImages{
+        margin: 70px 0 30px 0;
+    }
+    .productImages img{
+        margin: 30px 0 0 0;
+    }
+    .productTitle{
+        left: 22px;top: 50px; font-size: 20px;
+    }
+    .productQuantity{       
+       width: 300px ;
+    } 
+    .sizeBtn{
+        width: 300px 
+    }
+}
+
+@media  screen and (min-width:1500px) {
+    .productContent{
+        height:auto;
+    }  
+    .descriptionWrap{
+        margin-top: 140px;
+    }  
+    .descriptionWrap div{
+       margin-top: 40px;
+    }
+  }
+

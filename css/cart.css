@@ -1,0 +1,405 @@
+.loading{
+    position: absolute;background-color: rgba(192, 192, 192, 0.295);
+    height: 100Vh;width: 100vw;z-index: 3; display: flex;
+    flex-direction: column;justify-content: center;top: 0;
+    align-items: center; 
+    display: none;
+}
+.loading img{
+    width: 10%; 
+}
+.loading span{
+   margin-top: 15px; font-weight: bold; color: rgb(222, 135, 135);
+}
+/* main */
+main{
+    width: 100%; margin: 0; 
+    margin-top: 102px;
+}
+.main-wrap{
+    width: 300px;
+    display: flex; 
+    flex-wrap:wrap;
+    justify-content:center;
+    padding: 35px;
+}
+.cartStr{
+    text-align: left;
+    font-size: 16px;font-weight: bold;
+    border-bottom: 1px solid #202020;
+    width: 100%;
+    padding-bottom: 13px;   
+}
+.cartStrWeb{
+    display: none;
+}
+.productContent{
+    display: flex; width: 100%;flex-wrap: wrap;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #202020;
+    position: relative; padding-top: 15px;  
+}
+.productImg{
+    width: 114px; overflow: hidden;   
+}
+.productImg img{
+   width: 100%;
+}
+.productInfo{
+    width:180px; display: flex;
+    flex-direction: column;
+}
+.productInfo div{
+    font-size: 14px; color:#3f3a3a;
+    text-align: left; width: 100%;
+    margin-top: 5px; margin-left: 10px;   
+}
+.delImg{
+    height: 50px; width: 50px;
+    position: absolute; right: 0px;  top: 10px;
+}
+.priceInfo{
+    display: flex; justify-content: space-around;
+    width: 100%; padding-top: 20px;
+}
+.priceInfo span{
+    text-align: center;
+    font-size: 14px; color: #3f3a3a;
+}
+.qtyBox{
+    text-align: center; 
+}
+.amountMenu{
+    padding-top: 5px;
+}
+.qtySelect{
+    background-color: #f3f0f0;
+    border-radius: 5px;
+    height: 25px; width: 40px;
+}
+.eachPriceBox{
+    text-align: center;
+}
+.eachPrice{
+    padding-top: 5px;
+}
+.totalOfEachBox{
+    text-align: center;
+}
+.totalOfEach{
+    padding-top: 5px;
+}
+.deliveryBox{
+    width: 100%; background-color: #e8e8e8;
+    margin-top: 25px;  justify-content: space-around;
+    padding: 10px 10px 20px 10px
+}
+.countryIfo{
+
+    color: #3f3a3a; font-size: 14px; font-weight: bold;
+}
+.countrySelect{
+    color: #3f3a3a; font-size: 14px;
+    border-radius: 5px;height: 25px; width: 40px;  
+    background-color: #f3f0f0;width: 100%;
+    display: block; margin-top: 10px;   
+}
+.payMethodIfo{
+    color: #3f3a3a; font-size: 14px; margin-top: 10px; font-weight: bold
+}
+.payMethodSelect{
+    color: #3f3a3a; font-size: 14px;
+    border-radius: 5px;
+    height: 25px; width: 40px;
+    background-color: #f3f0f0;
+    display: block; margin-top: 10px;
+    width: 100%;
+}
+span{
+    font-family: "PingFangTC","微軟正黑體"
+}
+.reminder{
+    color:#3f3a3a; line-height: 26px; 
+    margin-top: 25px;font-size: 14px;
+    text-align: left;
+}
+.bookingBox {
+    margin-top: 30px;text-align: left; width: 100%;
+}
+.bookingTitle{
+    font-size: 16px; font-weight: bold;
+    width: 100%; padding-bottom: 13px;
+    border-bottom: 1px solid #313538;margin-bottom: 25px;
+}
+.bookingBox span{
+    color: #3f3a3a; font-size: 15px;
+}
+.bookingBox input{
+    color: #3f3a3a; font-size: 15px; margin: 8px 0 15px 0 ;
+    width: 100%; border: 0.5px solid #3f3a3a; height: 25px;
+    border-radius: 5px; padding-left: 10px; color: #696868;   
+}
+.deliveryTime{
+    display: flex; font-size: 16px; 
+    justify-content: space-around; align-items: center;  
+}
+.deliveryTime input{
+    margin: 10px 0px 10px 10px;width: auto;
+}
+.creditCardBox {
+    margin-top: 30px;text-align: left; width: 100%;
+    margin-bottom: 28px; padding-bottom: 13px;
+    border-bottom: 1px solid #202020;
+}
+.creditCardTitle{
+    font-size: 16px; font-weight: bold;
+    width: 100%; padding-bottom: 13px;
+    border-bottom: 1px solid #313538;margin-bottom: 25px;
+}
+.creditCardBox span{
+    color: #3f3a3a; font-size: 15px;  
+}
+.tpfield {
+    color: #3f3a3a; font-size: 15px; margin: 8px 0 15px 0 ;
+    width: 100%; border: 0.5px solid #3f3a3a; height: 28px;
+    border-radius: 5px; padding-left: 10px;
+}
+.totalPriceBox{
+    width: 100%; display: flex; flex-direction: row;
+    padding-bottom: 55px;position: relative;
+}
+.priceSpace{
+    display: flex; flex: auto; width: 100%;
+}
+.priceStr {
+  text-align: left;font-size: 14px;line-height: 50px;
+} 
+.totalDetail{
+    font-size: 18px;text-align: right;line-height: 50px;
+}
+.priceTotalInfo{
+    width: 200px; display: flex;
+    position: relative;
+}
+.separate{
+    border: 0.5px solid #3f3a3a; 
+    width: 200px; height: 0px;
+    position: absolute;
+    bottom: 100px;
+    display: block;
+}
+.payBtnWrap{
+    display: flex;width: 100%;
+}
+.payBtn{
+    background-color: #1a1c1d;width: 100%;
+    color: white; text-decoration: none; font-size: 16px;
+    width: 100%; height: 50px; letter-spacing: 3.2px;
+    font-family:"微軟正黑體"
+}
+
+/*============================================== media ==============================================*/
+@media  screen and (min-width:500px) {
+
+    /*main*/
+    main{
+        width: 100%;margin: auto; flex: auto;
+        margin-bottom: 150px; display: flex;
+        padding-top: 100px;      
+    }
+    .main-wrap{       
+        width: 100%; 
+        margin: 0; justify-content:center;
+        align-items:flex-start ;margin: auto;
+        justify-content: space-between;
+        padding: 30px;         
+    }
+   .productContent{     
+        display: flex; flex-direction: column;
+   }
+    .cartStr{
+        display: none;
+    }
+    .cartStrWeb{
+        display: flex;
+        position: relative;
+        left: 350px;
+    }
+    .cartStrWeb div{      
+        padding-bottom: 10px;
+        font-weight: bold;
+        justify-content: space-between;
+        width: 120px;
+        font-weight: bold;
+    }   
+    .content-wrap{
+        width: 100%;
+        border: 1px solid #818181;
+    }
+    .productContent{
+        display: flex; width: 100%;flex-wrap: nowrap;
+        align-items: center;
+        flex-direction: row; 
+        padding: 30px 20px 30px 20px;
+        border: none;   
+    }
+    .productImg{
+        width: 180px; height: 220px;       
+    }
+    .productInfo{
+        width:120px; display: flex;height: 200px;
+        flex-direction: column;margin-left: 10px;
+        padding-top: 35px;
+    }
+   .productInfo div{
+        font-size: 16px; 
+        line-height: 25px;      
+    }
+    .delImg{
+        height: 50px; width: 50px;margin-left: 1px;
+        position: absolute; right: 50px;  top: 123px;
+    }
+    .priceInfo{
+        display: flex; justify-content: space-between;
+        width: 250px; margin-left: 30px;
+        padding-top: 0px;
+    }
+    .priceInfo span{
+        display: none;   
+    }
+    .deliveryBox{
+        display: flex; justify-content: flex-start;
+        padding: 20px 10px 20px 10px
+    }
+    .deliveryTime{
+        margin-top:8px;
+    }
+    .countryIfo{
+        font-size: 16px;display: flex;justify-content: flex-start;align-items: center;
+    }
+    .deliveryBox > div > span{
+        width: 200px; margin: 0px 0px 0px 30px ; text-align: center;
+    }
+    .countrySelect{
+        font-size: 16px;
+        margin-right: 50px; margin-top: 0px;
+        width: 100%;
+    }
+    .payMethodIfo{
+        margin-top: 0px; font-size: 16px;display: flex;
+        align-items: center;justify-content: flex-start;
+    }
+    .payMethodSelect{
+        font-size: 16px;width: 100%;
+        margin-top: 0px;margin-right: 20px;     
+    }
+    .reminder{
+        line-height: 30px; font-size: 16px;
+    }
+    .bookingTitle{
+        font-size: 18px;
+    }
+    .bookingBox span{
+        font-size: 16px; display: block;
+    }
+    .bookingBox input{
+        color: #3f3a3a; margin: 8px 0 15px 0 ;
+        width: 360px; font-size: 16px; 
+    }
+    .deliveryTime{
+        display: flex; font-size: 16px; justify-content: space-around; align-items: center;
+        width: 500px;       
+    }
+    .deliveryTime input{
+        margin: 10px 0px 10px 10px;width: auto;
+    }
+    .creditCardTitle{
+        font-size: 18px;
+    }
+    .creditCardBox span{
+        font-size: 16px; display: block;        
+    }
+    .tpfield{
+        color: #3f3a3a; margin: 8px 0 15px 0 ;
+        width: 360px; font-size: 16px; 
+    }
+    .priceInfo{
+        margin-right: 60px;
+    }
+    .separate{
+         
+        width: 220px
+      
+    }
+    .payBtnWrap{
+        flex-direction: row-reverse; padding-right: 60px;
+    }
+    .payBtn{
+        width: 30%;   
+    }
+}
+
+@media  screen and (min-width:1000px) {
+
+    .main-wrap{    
+        padding: 40px;    
+    }
+    .cartStrWeb{
+        left: 450px;
+    }
+    .productInfo{       
+        padding-left: 30px; width: 200px;
+    }
+    .payBtn{
+        width: 220px;
+    }
+    .priceInfo{
+        display: flex; justify-content: space-between;
+        width: 290px; 
+        padding-top: 0px;
+        margin-left: 0px;
+    }
+}
+
+@media  screen and (min-width:1250px) {
+
+    /*main*/
+    
+    .main-wrap{
+     /* keep 3 columns ，  large screen. (>1250px) */
+        width: 1200px;  
+        margin: 0; justify-content:center;
+        align-items:center;margin: auto;       
+    }   
+    .main-wrap{       
+        width: 70%; 
+        margin: 0; justify-content:center;
+        align-items:flex-start ;margin: auto;
+        justify-content: space-between           
+    }
+    .cartStrWeb div{
+        width: 135px;
+    }
+}
+
+@media  screen and (min-width:1900px) {
+
+    .cartStrWeb{
+        left: 540px;
+    }
+    .cartStrWeb div{
+        width: 220px;margin-right: 10px;
+    }
+    .productInfo{
+        width:300px; margin-left: 15px;
+    }
+    .priceInfo{
+        width: 500px; font-size: 20px;        
+    }
+    .separate{
+        width: 360px;
+    }
+    .payBtn{      
+       width: 28%;
+    }  
+}

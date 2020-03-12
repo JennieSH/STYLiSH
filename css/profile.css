@@ -1,0 +1,199 @@
+/*===============================================  Main  ===============================================*/
+main{
+    width: 100%; margin: auto; 
+    margin-top: 136px ;
+}
+.main-wrap{
+    padding: 20px 35px 35px 35px;text-align: center; margin: 0;
+    display: flex; flex-wrap: wrap; justify-content: center;   
+}
+.profileWrap{
+    margin: 0; display: flex; align-items: center;
+    border: 2.5px dashed #4e4d4763;
+    padding: 20px 20px 20px 20px;
+    background-color: #dddddd5e;
+}
+.picture img{  
+    border-radius: 50%; padding: 3px;  
+}
+.fbStr {
+    margin-left: 30px; text-align: left;padding-bottom: 10px;
+}
+.email{
+    font-size: 14px;margin-top: 10px; 
+    color: #3f3a3ac0;  
+}
+.name{
+    font-size: 22px;margin-top: 20px;text-align: left;font-weight: bold;
+    color: #3f3a3ac0;   
+}
+.menuWrap{
+    margin-top: 30px; display: flex; flex-wrap: wrap; justify-content: space-around;
+}
+.menuWrap div {
+    display: flex; margin-bottom: 20px; border-radius: 5px; align-items: center; 
+    width: 140px; background-color: #b8b8b5; text-align: center;justify-content: space-around;
+    box-shadow:  2px 2px 3px  #000000;
+}
+.menuWrap div:hover{
+    background-color: #8a8a88; 
+}
+.menuWrap div span{
+   font-weight: bold;
+}
+.menuWrap div img{
+    height: 50px;width: 50px; padding: 5px 0 5px 0;
+}
+.mainPageBtn{
+    background-color: rgb(85, 85, 85); color: #ffffff;
+    border: none; margin-top: 40px; height: 30px; width: 100px;
+}
+
+/*============================================== media ==============================================*/
+
+@media screen and (min-width:360px){
+    body{
+        width: 100%;
+    }
+    header{
+        width: 100%;
+        justify-content: flex-start;
+        align-content: center;
+    }
+   .search{
+       display: none;
+   }
+   .partition{
+       display: none;      
+   } 
+   .mainPageBtn{
+    display: none;
+    }
+}
+
+@media  screen and (min-width:500px) {
+
+    .partition{
+        display: block;
+    }  
+    main{
+        width: 100%;margin: auto; flex: auto;
+        margin-bottom: 150px; display: flex;
+        padding-top: 100px;     
+    }
+    .main-wrap{
+        justify-content:center;
+        padding: 0px 100px 0px 100px;       
+    }  
+    .profileWrap{      
+        background-color: #dddddd5e;
+        justify-content: center;
+        width: 500px;  margin-bottom: 30px;
+    }
+    .picture img{   
+        border-radius: 50%; padding: 3px;
+        height: 100px; border: 2.5px solid #c498715e;    
+    }
+    .fbStr {
+        margin-left: 100px
+    }
+   .email{
+        font-size: 18px;margin-top: 10px; 
+        color: #3f3a3ac0;     
+    }
+    .name{
+        font-size: 30px;margin-top: 20px;text-align: left;font-weight: bold;
+        color: #3f3a3ac0;   
+    }
+    .menuWrap div {
+        margin-bottom: 30px;
+        width: 250px; justify-content: center;
+    }
+    .menuWrap div img{
+        height: 50px;width: 50px; padding: 5px 0 5px 30px;  
+    }
+    .mainPageBtn{
+        display: block;
+    }
+}
+
+@media  screen and (min-width:1000px) {
+    main{
+        display: flex; justify-content: center;
+    }
+    .main-wrap{      
+        padding: 50px ;   
+    }
+    .profileWrap{      
+        height: 180px;
+        width: 700px; 
+    }
+    .picture img{
+        border-radius: 50%; padding: 3px;
+        height: 150px;    
+    }
+    .fbStr {
+        margin-left: 100px
+    }
+    .menuWrap{
+        margin-top: 70px;
+        width: 700px;
+    }
+    .menuWrap div {
+        margin-bottom: 70px; height: 80px;
+        width: 280px; justify-content: center;
+    }
+    .menuWrap span {
+        font-size: 22px;
+    }
+    .mainPageBtn{
+        font-size: 16px; width:200px; height:50px;
+    }
+}
+
+@media  screen and (min-width:1250px) {
+
+    /*main*/
+
+    .main-wrap{
+     /* keep 3 columns ，  large screen. (>1250px) */    
+        width: 1000px;  
+        margin: 0; justify-content:center;
+        align-items:center;margin: auto;    
+    }
+    .profileWrap{
+        width: 900px; justify-content: space-between;height: 30px;
+    }
+    .picture img{ 
+       height: 80px; background-color: #ffffff;     
+    }   
+    .fbStr {
+        margin-left: 0px; display: flex; width: 460px;
+        text-align: center; align-items: center;
+        justify-content: space-between; padding-bottom: 0;
+    } 
+    .email{
+        font-size: 14px;margin-top: 0px; 
+        color: #3f3a3ac0;     
+    }
+    .name{
+        font-size: 24px;margin-top: 0px;text-align: center;     
+    }
+    .menuWrap{
+        margin-top: 100px;
+        width: 900px;
+    }
+    .menuWrap div {
+        margin-bottom: 70px; height: 80px;
+        width: 250px; justify-content: center;
+    }
+    .menuWrap span {
+        font-size: 20px;
+    }
+    .menuWrap div img{
+        height: 50px;width: 50px; padding: 5px 0 5px 30px;
+    }
+    .mainPageBtn{
+        width: 130px;
+    } 
+}

@@ -1,0 +1,261 @@
+/* banner */
+
+.bannerWrap{
+    width: 100%;margin: 0;   
+}
+.bannerLink0{
+    width: 100%;;overflow: hidden;
+    margin: 0;position: relative;
+    display: flex;justify-content: center;   
+}
+.bannerLink1{
+    width: 100%;overflow: hidden;
+    margin: 0;position: relative;
+    display: flex;justify-content: center;
+}
+.bannerLink2{
+    width: 100%;;overflow: hidden;
+    margin: 0;position: relative;
+    display: flex;justify-content: center; 
+}
+.bannerImg{
+    display: block;position: relative;
+}
+.bannerImg img {
+    height: 350px; overflow: hidden;width: auto;position: relative;z-index: 1;
+}
+.bannerStory{
+    width: 250px; line-height: 35px;margin: 150px 0 50px 23px;display: block;
+    position: absolute; z-index:2;left: 10px;background-color:transparent;color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 5px #ffffff;
+}
+.bannerIndexBox{
+    position: absolute;z-index: 2; margin-top: 320px;  
+}
+.bannerIndex00{
+    height: 10px; width: 10px; background-color: #313538;  margin: 4px;
+    border-radius: 50%;display: inline-block;
+}
+.bannerIndex10{
+    height: 10px; width: 10px; background-color: #ffffff;  margin: 4px;
+    border-radius: 50%;display: inline-block;
+}
+.bannerIndex20{
+    height: 10px; width: 10px; background-color: #ffffff; margin: 4px;
+    border-radius: 50%;display: inline-block;
+}
+.bannerIndex01{
+    height: 10px; width: 10px; background-color: #ffffff;  margin: 4px;
+    border-radius: 50%;display: inline-block;
+}
+.bannerIndex11{
+    height: 10px; width: 10px; background-color: #313538;  margin: 4px;
+    border-radius: 50%;display: inline-block;
+}
+.bannerIndex21{
+    height: 10px; width: 10px; background-color: #ffffff; margin: 4px;
+    border-radius: 50%;display: inline-block;
+}
+.bannerIndex02{
+    height: 10px; width: 10px; background-color: #ffffff;  margin: 4px;
+    border-radius: 50%;display: inline-block;
+}
+.bannerIndex12{
+    height: 10px; width: 10px; background-color: #ffffff;  margin: 4px;
+    border-radius: 50%;display: inline-block;
+}
+.bannerIndex22{
+    height: 10px; width: 10px; background-color: #313538; margin: 4px;
+    border-radius: 50%;display: inline-block;
+}
+
+/* main */
+
+main{
+    width: 100%; margin: 0;
+    padding: 50px 0px;
+    margin-bottom: 185px;
+}
+.main-wrap{
+    width: 100%;flex-wrap:wrap;
+    display: flex; justify-content:center;
+}
+.product{
+    height: 294px;width: 153px;   
+    margin: 0px 3px ;flex: none;    
+}
+.product .pic{
+    height: 204px; width: 153px; margin-bottom: 4px; 
+}
+.product .pic img{
+    width: 100%;
+}
+.product .text{
+    height: 55px; width: 153px;   
+    display: flex;flex-wrap: wrap;
+    padding: 2px 0px 0px;
+    font-family: "PingFangTC";
+}
+.colorBox{
+display: flex; 
+}
+.eachColor{
+    height: 12px;width: 12px; margin: 5px 8px 10px 0;
+    border: 1px solid #dbd8d8;   
+}
+.product .productName{
+    height: 14px;width: 153px;
+    margin-bottom: 0px;font-size: 12px;    
+}
+.product .price{
+    width: 153px; height: 14px;margin-top: 3px;
+    font-size: 12px;
+}
+
+/*===================================================================================================*/
+/*============================================== media ==============================================*/
+/*===================================================================================================*/
+
+
+@media  screen and (min-width:500px) {
+
+    /* header */
+    .banner{
+        height: 500px;margin-top: 0px;     
+    } 
+    .bannerImg{
+       width: 100%;
+    }
+    .bannerImg img {
+        height: 500px; position: relative;right: 200px;       
+    }
+    .bannerStory{
+        line-height: 44px;margin: 200px 0 0 200px;display: block;font-size: 20px ;     
+    }
+    .bannerIndexBox{
+        margin-top: 450px;  
+    }
+
+    /*main*/  
+    main{
+        width: 100%;margin: auto; flex: auto;
+        margin-bottom: 50px; 
+    }
+    .main-wrap{  
+        width: 90%; 
+        margin: 0; justify-content:center;
+        align-items:center;margin: auto;    
+    }
+    .product{ 
+        width: 290px; height: 500px;
+        margin: 0 1% 0 1%;
+    }
+    .product .pic{
+        height:360px;width: 270px;  
+    }
+    .product .text{
+        width: 360px;height: 70px;
+    }
+    .product .colorBox{
+        width: 360px;
+    }
+    .product .eachColor{
+        height: 18px;width: 18px;margin-bottom:8px ;
+    }
+    .product .productName{
+        width: 360px;
+        font-size:14px;
+        height: 24px;
+    }
+    .product .price{
+        width: 360px;
+        font-size:14px;
+        height: 24px;
+    }
+}
+
+
+@media  screen and (min-width:1250px) {
+
+    /*banner*/
+
+    .partition{
+        margin-top: 0px; height: 20px;
+        }
+    .banner{
+    height: 550px; margin-top: 64px; 
+    }
+    .bannerWrap{
+       height: 550px; margin-top:124px;
+    }
+    .bannerLink0{
+       height: 550px;
+    }
+    .bannerLink1{
+        height: 550px;
+     }
+    .bannerLink2{
+        height: 550px;
+     }
+    .bannerImg img {
+        height:575px;
+        width: 138%; 
+    }
+    .bannerStory{
+        font-size: 20px;
+
+    }
+    .bannerIndexBox{
+        position: absolute;z-index: 2; margin-top: 500px;
+    }
+    .bannerIndexBox div{
+       margin: 8px;
+    }
+    /*main*/
+    
+    .main-wrap{
+     /* keep 3 columns ，  large screen. (>1250px) */
+        width: 1200px;  
+        margin: 0; justify-content:center;
+        align-items:center;margin: auto;
+    }
+    .product{
+        width: 360px; height: 700px;
+        margin: 0 1% 0 1%;
+    }
+    .product .pic{
+        height:450px;width: 330px;     
+    }
+    .product .text{
+        width: 360px;height: 112px;
+    }
+    .product .colorBox{
+        width: 360px;
+    }
+    .product .productName{
+        width: 360px;
+        font-size: 15px;
+        height: 24px;      
+    }
+    .product .price{
+        width: 360px;
+        font-size: 15px;
+        height: 24px;       
+    }
+}
+
+.fadeTime{
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+  @media  screen and (min-width:1500px) {
+    .bannerImg img{
+        height:750px;
+        width: 128%; 
+    }
+  }

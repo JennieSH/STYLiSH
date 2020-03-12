@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154982152-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-154982152-1');
+    </script>
+    <link href="css/product.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/common.css" rel="stylesheet" type="text/css" media="all" />
+    <script src="js/productPage.js"></script>
+    <title>Product</title>
+    
+   
+
+
+
+</head>
+<body>
+   
+    <header>
+        
+        <div class="logo"> 
+            <a href="index.html"><img src="images/logo.png" ></a>  
+        </div>
+    
+        <div class="logo_search">
+            <a href="#" onclick="mobileSearch()"><img  id="mobileSearchIcon"  src="images/search.png" ></a>
+            
+            <div class="search-mobile" id="mobileSearchBar">
+                <input type="search" id="searchValueM"><button type="submit" id="mobileSeacrhBtn" onclick="searchProductMobile()" ><img src="images/search.png">  
+            </div>
+        </div>
+
+        
+         <nav>  
+            <a href="index.html?catalog=women"><strong> 女裝 </strong></a>|
+            <a href="index.html?catalog=men" class="nav-bar"><strong> 男裝 </strong></a>|
+            <a href="index.html?catalog=accessories"><strong> 配件 </strong></a>       
+        </nav>  
+
+        <div class="search">
+
+            <div class="search-web">
+                <input type="search" id="searchValueW"><button type="submit" id="webSeacrhBtn" onclick="searchProductWeb()"><img src="images/search.png"></input>   
+            </div>
+
+
+            <a href="cartPage.html" class="cart-web"><img src="images/cart.png" />
+                <div class="cart-amount-Web" id="cartAmount"></div>
+            </a>
+
+
+            <a href="#" class="member-web" onclick="checkLoginState()"><img src="images/member.png" id="memberIconW"></a>
+        </div>
+        
+    </header> 
+
+
+    
+
+    <div class="partition"></div>
+ 
+  
+
+
+
+    <main>
+        <div class="main-wrap" id="products"></div>
+    </main>
+
+
+
+<footer>
+    <div class="footer-wrap">
+        <div class="footer-items">
+            <a href="#" class="footer-item-about"> 關於 Stylish </a>
+            <a href="#" class="footer-item"> 服務條款 </a>
+            <a href="#" class="footer-item"> 隱私政策 </a>
+            <a href="#" class="footer-item"> 聯絡我們 </a>
+            <a href="#" class="footer-item"> FAQ </a>
+        </div>
+        <div class="footer-icon">
+            <a href="#"><img src="images/line.png" ></a>
+            <a href="#"><img src="images/twitter.png" ></a>
+            <a href="#"><img src="images/facebook.png" ></a>
+        </div>
+        
+    </div>
+
+
+    <div class="copyright">
+            &copy; 2018. All rights reserved.
+
+    </div>
+    
+</footer>
+<div class="cart">
+    <div>  
+            
+        <a href="cartPage.html" class="cart-bar"> 
+                
+            <img src="images/cart2.png">購物車
+            <sapn class="cart-amount-mobile" id="cartAmountMobile"/>
+        </a>
+           
+         
+        <a href="#" onclick="checkLoginState()"> 
+                
+            <img src="images/member2.png" id="memberIconM">會員</div></a>
+                   
+    </div> 
+
+
+</div>
+</body> 
+</html>

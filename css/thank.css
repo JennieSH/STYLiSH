@@ -1,0 +1,75 @@
+/*========================================   Thank Main ==============================================*/
+
+/* main */
+main{
+    width: 100%; margin: 0; 
+    margin-top: 102px 
+}
+.main-wrap{
+    width: 300px;margin: auto;
+    padding: 35px;text-align: center;  
+}
+.imgWrap{
+    display: flex;margin: auto;
+    width: 120px;text-align: center;
+}
+.imgWrap img{
+    width: 100%;
+}
+h2{
+    font-family: "Segoe Print","微軟正黑體";
+    width: 300px;margin: auto;margin-top: 30px;
+}
+.indexBtn{
+    width: 150px;height: 30px;margin-top: 30px;
+    border-radius: 50px;background-color:#313538;
+    letter-spacing: 5px;color: #ffffff;border: none;
+    margin-bottom: 30px;
+}
+
+/*============================================== media ==============================================*/
+
+@media  screen and (min-width:500px) {
+    /*main*/
+    
+    main{
+        width: 100%;margin: auto; flex: auto;
+        margin-bottom: 150px; display: flex;
+        padding-top: 100px;   
+    }
+    .main-wrap{      
+        width: 100%;
+        margin: 0; justify-content:center;
+        align-items:flex-start ;margin: auto;
+        justify-content: space-between;
+        padding: 150px 0 100px 0;       
+    }
+}
+
+@media  screen and (min-width:1000px) {
+    .main-wrap{      
+        padding: 50px       
+    }
+    .imgWrap{
+       margin-bottom: 50px; width: 20%;
+    }
+    .indexBtn{
+        font-size: 18px;width: 300px;height: 50px;letter-spacing: 10px;
+    }
+}
+
+@media  screen and (min-width:1250px) {
+
+    .main-wrap{
+     /* keep 3 columns ，  large screen. (>1250px) */   
+        width: 1200px;  
+        margin: 0; justify-content:center;
+        align-items:center;margin: auto;       
+    } 
+    .main-wrap{      
+        width: 70%; 
+        margin: 0; justify-content:center;
+        align-items:flex-start ;margin: auto;
+        justify-content: space-between        
+    }
+}
