@@ -212,7 +212,11 @@ display: flex;
        margin: 8px;
     }
     /*main*/
-    
+    main{
+        width: 100%;margin: auto; flex: auto;
+        margin-bottom: 50px; 
+        overflow: hidden;
+    }
     .main-wrap{
      /* keep 3 columns ，  large screen. (>1250px) */
         width: 1200px;  

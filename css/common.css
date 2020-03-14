@@ -90,6 +90,11 @@ nav a:hover{
     padding: 5px 0 5px 30px;
     border-radius:200px 200px 200px 200px ;  
 }
+#webSeacrhBtn{
+    background-image: url(../images/search.png);
+    height: 32px;width: 32px; 
+    background-size:cover;
+}
 .search-web a{
     justify-content:flex-end ;   
 }
@@ -98,7 +103,7 @@ nav a:hover{
 }
 .search-web button{
     height: 0; width: 0;
-    position: relative;right: 5px; bottom: 3px;
+    position: relative;right: 7px;
     background-color: transparent;border: none;
 }
 .cart-web{
@@ -257,18 +262,23 @@ footer{
     }
     .search{
         display: flex; width:auto;
-        padding: 8px 10px 0px 10px;       
+        padding: 8px 10px 0px 10px;   
     }
     .search-web {
         height: 25px;width: 140px;
         padding: 5px 0 5px 15px;
         margin: 0 15px 0 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }    
     .search-web input{
-        height: 25px;width: 105px;
+        height: 25px;width: 100%;
+        outline:none;
     }
     .search-web img{
-        height: 32px;width: 32px; position: relative;bottom: 3px; 
+        height: 32px;width: 32px; 
+        /* position: relative;bottom: 3px;  */
     }
     .cart-web{     
         margin: 0 9px 0 0;      
@@ -321,7 +331,7 @@ footer{
         margin: 4px 14px;               
     }  
     .footer-wrap img{
-    height: 30px; width: 30px; margin: 10px;
+        height: 30px; width: 30px; margin: 10px;
     }
     .copyright{
         font-size: 12px;; color: #828282;
@@ -401,7 +411,7 @@ footer{
         border-left: 1px solid #ffffff;      
     }
     .footer-wrap img{
-    height: 50px; width: 50px; margin: 15px;
+        height: 30px; width: 30px; margin: 15px;
     }
     .copyright{
         font-size: 13px; color: #828282;      
